@@ -1,0 +1,43 @@
+2021-03-07 04:25:34.854  INFO 1804 --- [http-nio-8080-exec-8] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 05:11:44.162  INFO 1804 --- [http-nio-8080-exec-2] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 05:11:44.592  INFO 1804 --- [http-nio-8080-exec-5] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 05:38:54.777  INFO 1804 --- [http-nio-8080-exec-4] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 06:32:01.922  INFO 1804 --- [http-nio-8080-exec-7] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [HTTP/1.10x0aHost:]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:560)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-03-07 09:05:18.485  INFO 1804 --- [http-nio-8080-exec-9] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 09:33:31.259  INFO 1804 --- [http-nio-8080-exec-10] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 11:15:53.367  INFO 1804 --- [http-nio-8080-exec-4] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 12:15:28.451  INFO 1804 --- [http-nio-8080-exec-8] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 13:32:38.551  INFO 1804 --- [http-nio-8080-exec-5] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 13:43:14.267  INFO 1804 --- [http-nio-8080-exec-7] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x050x01...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-03-07 16:25:51.528  INFO 1804 --- [http-nio-8080-exec-2] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 16:29:12.516  INFO 1804 --- [http-nio-8080-exec-1] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 16:39:29.363  INFO 1804 --- [http-nio-8080-exec-3] c.kaka.blog.controller.IndexController   : 進入前台首頁...
+2021-03-07 18:44:31.823  INFO 1804 --- [http-nio-8080-exec-6] c.kaka.blog.controller.IndexController   : 進入前台首頁...

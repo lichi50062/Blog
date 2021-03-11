@@ -1,0 +1,51 @@
+Index: a
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/a b/a
+new file mode 100644
+--- /dev/null	
++++ b/a	
+@@ -0,0 +1,41 @@
++[33mcommit 41ff6b88ec81ea53e240616e1c112a66c74236c0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 11 13:32:44 2021 +0800
++
++    blog
++
++[33mcommit 03acc9fb58384c5b943017ef0c4a3bcfbd2a2db5[m[33m ([m[1;31mgithub/master[m[33m, [m[1;32mdev[m[33m)[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 11 12:52:46 2021 +0800
++
++    fix blog delete
++
++[33mcommit e43325401e9be2db7d4a454a9a3b6220e0b487a1[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Fri Mar 5 01:35:47 2021 +0800
++
++    fix blog delete
++
++[33mcommit 9b68a41786c4b97da8b22c7967c1fd31a1008027[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 4 14:55:02 2021 +0800
++
++    User po
++
++[33mcommit d6cfe82e53e1e58a455806435385410becd73756[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 4 14:50:54 2021 +0800
++
++    pom.xml
++
++[33mcommit 4a12f68d5c303ce0723d2fd981c9a7434aa169ba[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 4 14:41:54 2021 +0800
++
++    blog
++
++[33mcommit b447a360e3aea958bf64823dfb8c9e98c5d33885[m
++Author: lichi50062 <lichi750626@gmail.com>
++Date:   Thu Mar 4 14:20:16 2021 +0800
++
++    blog

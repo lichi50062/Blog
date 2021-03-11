@@ -1,0 +1,6 @@
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ./target/*.jar /blog/blog-0.0.1-SNAPSHOT.jar
+WORKDIR /Documents/mydocker
+RUN sh -c 'touch demo.jar'
+ENTRYPOINT ["java","-jar","demo.jar"]
